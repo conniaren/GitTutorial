@@ -7,7 +7,7 @@ public class Main {
 
         System.out.print(c_cake.getName());
 
-        if(c_cake.cakeToppings!=Cake.CakeToppings.Strawberry){
+        if(c_cake.cakeToppings==Cake.CakeToppings.Strawberry){
             System.out.print("Dang, I want a Chocolate cake instead!");
             System.exit(-1);
         }
